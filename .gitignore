@@ -1,0 +1,9 @@
+# Local, machine-specific config lives outside the repo.
+config.sh
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+__pycache__/
+*.pyc
