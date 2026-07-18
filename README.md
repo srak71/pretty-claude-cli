@@ -4,10 +4,6 @@ A colorful, animated status line for the [Claude Code](https://code.claude.com) 
 
 ![preview](examples/preview.svg)
 
-```
-(macOS Sequoia 15.5) ~/projects/acme-api  ┃  🧊 ●●●○○○○○○○○○○○○○○○○○○○○○ 13%  ┃  Claude Pro, Opus 4.8, 4h 43m
-```
-
 - **Heat bar** — an animated rainbow progress bar for context-window usage, with an **emoji temperature gauge** (🧊 → 🌡️ → 🔥 → 💥 → ☢️) that heats up as you fill the window.
 - **Rainbow model name** — the model name flows the same moving gradient as the bar, its left edge picking up the bar's leading color.
 - **Per-device color profiles** — each machine auto-selects its own palette by hostname, so your laptop and your server look different at a glance.
