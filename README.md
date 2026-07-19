@@ -31,9 +31,9 @@ The installer copies the status line to `~/.claude/pretty-claude-cli/`, drops a 
 
 | Segment | Meaning |
 | --- | --- |
-| `(macOS Sequoia 15.5)` | Operating system + version (auto-detected) |
-| `~/projects/acme-api` | Current working directory |
-| `🧊 ●●●○… 13%` | Context-window usage: emoji gauge + rainbow bar + percentage |
+| `(macOS Tahoe 26.5.2)` | Operating system + version (auto-detected) |
+| `~/Users/sar-mac/pretty-claude-cli` | Current working directory |
+| `💥 ●●●●●●●●●●●●●●●●●●○○○○○○ 75%` | Context-window usage: emoji gauge + rainbow bar + percentage |
 | `Claude Pro` | Your plan label |
 | `Opus 4.8` | Active model for this session |
 | `4h 43m` | Time remaining until the 5-hour session window resets |
