@@ -1,8 +1,9 @@
 # Local, machine-specific config lives outside the repo.
-config.sh
+config.ini
 
 # OS / editor cruft
 .DS_Store
+Thumbs.db
 *.swp
 *~
 __pycache__/
