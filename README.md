@@ -94,6 +94,14 @@ The animation is driven by Claude Code's `statusLine.refreshInterval` (in **seco
 
 Claude Code pipes session JSON to `statusLine.command` on every update. `statusline.sh` detects the OS, sources your `config.sh`, and hands off to `render.py`, which reads the context percentage, model, and reset time from the JSON and prints one ANSI-colored line. No daemon, no dependencies beyond `bash` + `python3`.
 
+## Contributing
+
+Ideas, themes, and fixes are welcome. Fork the repo, make your change on a
+branch in your fork, and open a Pull Request against `main` — I review and
+merge the ones I like. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full
+workflow and a one-liner to test the bar locally. Bugs and theme ideas can go
+in [Issues](https://github.com/srak71/pretty-claude-cli/issues).
+
 ## License
 
 [MIT](LICENSE) © Saransh Rakshak
